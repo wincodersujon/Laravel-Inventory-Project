@@ -3,7 +3,7 @@
         <div class="col-md-7 col-lg-6 center-screen">
             <div class="card animated fadeIn w-90 p-4">
                 <div class="card-body">
-                    <h4>SET NEW PASSWORD</h4>
+                    <h4>Set New Password</h4>
                     <br/>
                     <label>New Password</label>
                     <input id="password" placeholder="New Password" class="form-control" type="password"/>
