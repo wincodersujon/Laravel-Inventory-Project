@@ -15,7 +15,7 @@ class JWTToken
         $payload = [
             'iss' => 'laravel-token',
             'iat' => time(),
-            'exp' => time() + 60 * 60,
+            'exp' => time()+60*60,
             'userEmail' => $userEmail,
             'userID' => $userID
         ];
@@ -29,7 +29,7 @@ class JWTToken
         $payload = [
             'iss' => 'laravel-token',
             'iat' => time(),
-            'exp' => time() + 60 * 10,
+            'exp' => time()+60*10,
             'userEmail' => $userEmail,
             'userID' => '0'
         ];
